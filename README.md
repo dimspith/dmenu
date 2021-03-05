@@ -1,7 +1,17 @@
 dmenu - dynamic menu
 ====================
-dmenu is an efficient dynamic menu for X.
+dmenu is an efficient dynamic menu for X. This is a patched build containing the following patches:
 
+* caseinsensitive
+* highlight
+* numbers
+
+Additionally four new cmdline parameters are supported, specifying colors for highlighting matches from the **highlight** patch. these are:
+
+* `-hf`  highlight foreground
+* `-hb`  highlight background
+* `-shf` selected highlight foreground
+* `-shb` selected highlight background
 
 Requirements
 ------------
